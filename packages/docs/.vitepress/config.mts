@@ -4,9 +4,11 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Y-UI",
   description: "一个正在完善的组件库",
-  base:'/Y-UI/',
-  head: [["link", { rel: "icon", href: "/纸飞机.svg" }]],
+  base: "/Y-UI/",
+  head: [["link", { rel: "icon", href: "/Y-UI/favicon.ico" }]],
   themeConfig: {
+    logo: "/favicon.ico",
+    siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "开始使用", link: "/" },
