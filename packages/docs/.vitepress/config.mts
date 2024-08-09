@@ -1,6 +1,5 @@
 import { defineConfig } from "vitepress";
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Y-UI",
   description: "一个正在完善的组件库",
@@ -9,7 +8,6 @@ export default defineConfig({
   themeConfig: {
     logo: "/favicon.ico",
     siteTitle: false,
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "开始使用", link: "/" },
       { text: "组件", link: "/markdown-examples" },
