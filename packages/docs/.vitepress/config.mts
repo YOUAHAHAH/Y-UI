@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Y-UI",
   description: "一个正在完善的组件库",
   base:'/Y-UI/',
-  head: [["link", { rel: "icon", href: "/纸飞机.png" }]],
+  head: [["link", { rel: "icon", href: "/纸飞机.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
